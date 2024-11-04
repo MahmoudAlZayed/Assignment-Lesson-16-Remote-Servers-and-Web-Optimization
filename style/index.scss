@@ -1,0 +1,45 @@
+$font1: "Josefin Sans", Sans-serif;
+$font2: "Aleo", Sans-serif;
+$color1: #ffffff;
+$color2: #999999;
+$color3: #5474fd;
+$color4: #e8e8e8;
+$color5: #333333;
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+
+
+}
+body {
+  // max-width: 2000px;
+  width: 100%;
+  margin: auto;
+
+}
+
+.container {
+  display: none;
+}
+.icon {
+  display: none;
+}
+.logo-phone {
+  display: none;
+}
+body {
+  margin: auto;
+}
+
+@import "NavPhone";
+
+@import "header";
+
+@import "main";
+
+@import "footer";
+
+@import "media";
+
